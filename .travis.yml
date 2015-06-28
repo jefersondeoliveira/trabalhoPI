@@ -1,5 +1,10 @@
 language: node_js
 node_js:
   - "0.12"
-script: "npm run-script test"
-after_script: "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js" 
+deploy:
+  provider: heroku
+  api_key:
+    secure: baa0fc4b-ed82-4c81-9146-155d9c80d33e
+  app: trabalhopi
+  on:
+    repo: jefersondeoliveira/trabalhoPI
