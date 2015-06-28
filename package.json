@@ -18,7 +18,6 @@
   },
   "scripts": {
     "test": "istanbul cover jasmine-node --captureExceptions test && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coveragea",
-    "jasmine": "jasmine-node test",
      "start": "node app.js"
   }
 }
