@@ -4,6 +4,22 @@ module.exports = function() {
 
         valorValido : function( valores ){
             
+            if(typeof valores.um !== 'number'){
+                return false;
+            }
+            
+            if(typeof valores.dois !== 'number'){
+                return false;
+            }
+            
+            if(typeof valores.tres !== 'number'){
+                return false;
+            }
+            
+            if(typeof valores.quatro !== 'number'){
+                return false;
+            }
+            
             if(valores.um <= 0){
                 return false;
             }
