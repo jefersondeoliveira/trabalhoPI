@@ -12,13 +12,13 @@
     </style>
 </head>
 <body>
-<div class="header low">
+<div class="header medium">
     <h1>Code coverage report for <span class="entity">controllers/home.js</span></h1>
     <h2>
-        Statements: <span class="metric">17.39% <small>(4 / 23)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
-        Branches: <span class="metric">0% <small>(0 / 12)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
-        Functions: <span class="metric">20% <small>(1 / 5)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
-        Lines: <span class="metric">17.39% <small>(4 / 23)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Statements: <span class="metric">65.22% <small>(15 / 23)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Branches: <span class="metric">50% <small>(6 / 12)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Functions: <span class="metric">40% <small>(2 / 5)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Lines: <span class="metric">65.22% <small>(15 / 23)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
         Ignored: <span class="metric"><span class="ignore-none">none</span></span> &nbsp;&nbsp;&nbsp;&nbsp;
     </h2>
     <div class="path"><a href="../index.html">All files</a> &#187; <a href="index.html">controllers/</a> &#187; home.js</div>
@@ -122,26 +122,26 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">2</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">2</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-yes">1</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-yes">1</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-yes">1</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-yes">1</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -182,28 +182,28 @@ module.exports = function (app) {
 			}
 		},
 		util: {
-			preparaObjeto: <span class="fstat-no" title="function not covered" >function (obj, callback) {</span>
+			preparaObjeto: function (obj, callback) {
 &nbsp;
-<span class="cstat-no" title="statement not covered" >				var valores = {};</span>
+				var valores = {};
 &nbsp;
-<span class="cstat-no" title="statement not covered" >				if (obj) {</span>
+				if (obj) {
 &nbsp;
-<span class="cstat-no" title="statement not covered" >					if (obj.valorUm) {</span>
-<span class="cstat-no" title="statement not covered" >						valores.um = obj.valorUm;</span>
+					<span class="missing-if-branch" title="else path not taken" >E</span>if (obj.valorUm) {
+						valores.um = obj.valorUm;
 					}
-<span class="cstat-no" title="statement not covered" >					if (obj.valorDois) {</span>
-<span class="cstat-no" title="statement not covered" >						valores.dois = obj.valorDois;</span>
+					<span class="missing-if-branch" title="else path not taken" >E</span>if (obj.valorDois) {
+						valores.dois = obj.valorDois;
 					}
-<span class="cstat-no" title="statement not covered" >					if (obj.valorTres) {</span>
-<span class="cstat-no" title="statement not covered" >						valores.tres = obj.valorTres;</span>
+					<span class="missing-if-branch" title="else path not taken" >E</span>if (obj.valorTres) {
+						valores.tres = obj.valorTres;
 					}
-<span class="cstat-no" title="statement not covered" >					if (obj.valorQuatro) {</span>
-<span class="cstat-no" title="statement not covered" >						valores.quatro = obj.valorQuatro;</span>
+					<span class="missing-if-branch" title="else path not taken" >E</span>if (obj.valorQuatro) {
+						valores.quatro = obj.valorQuatro;
 					}
 &nbsp;
 				}
 &nbsp;
-<span class="cstat-no" title="statement not covered" >				callback(valores);</span>
+				callback(valores);
 &nbsp;
 			}
 		}
@@ -216,7 +216,7 @@ module.exports = function (app) {
 
 </div>
 <div class="footer">
-    <div class="meta">Generated by <a href="http://istanbul-js.org/" target="_blank">istanbul</a> at Sun Jun 28 2015 13:16:35 GMT-0300 (BRT)</div>
+    <div class="meta">Generated by <a href="http://istanbul-js.org/" target="_blank">istanbul</a> at Sun Jun 28 2015 18:06:07 GMT-0300 (BRT)</div>
 </div>
 <script src="../prettify.js"></script>
 <script>

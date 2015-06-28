@@ -13,6 +13,7 @@
     "express-load": "^1.1.14"
   },
   "devDependencies": {
+    "chai": "*",
     "coveralls": "^2.11.2",
     "istanbul": "^0.3.15",
     "jasmine-expect": "^2.0.0-beta1",

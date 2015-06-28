@@ -3,7 +3,7 @@ module.exports = function() {
     var ValidacaoUtil = {
 
         valorValido : function( valores ){
-
+            
             if(valores.um <= 0){
                 return false;
             }
