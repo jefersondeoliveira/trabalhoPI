@@ -4,6 +4,8 @@ var express = require('express')
   , path  = require( "path" )
   , app = express();
 
+app.set('port', (process.env.PORT || 5000));
+
 app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 app.use(bodyParser.json());
@@ -15,6 +17,6 @@ load('models')
   .then('routes')
   .into(app);
 
-app.listen(3000, function () {
-  console.log("Rodando na porta 3000.");
+app.listen(app.get('port'), function () {
+  console.log("Rodando na porta "+app.get('port'));
 });
