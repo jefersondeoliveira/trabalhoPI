@@ -13,4 +13,9 @@
 * npm test
 ```
 
+###Testes e2e###
+```
+* npm run integration
+```
+
 https://trabalhopi.herokuapp.com/
