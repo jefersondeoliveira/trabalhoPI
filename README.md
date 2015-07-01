@@ -18,4 +18,3 @@
 * npm run integration
 ```
 
-https://trabalhopi.herokuapp.com/
