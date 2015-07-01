@@ -11,7 +11,7 @@
 7 verbose unsafe-perm in lifecycle true
 8 info trabalhoPI@1.0.0 Failed to exec integration script
 9 error trabalhoPI@1.0.0 integration: `./sh/integration.sh`
-9 error Exit status 126
+9 error Exit status 1
 10 error Failed at the trabalhoPI@1.0.0 integration script.
 10 error This is most likely a problem with the trabalhoPI package,
 10 error not with npm itself.
