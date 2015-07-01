@@ -22,7 +22,8 @@
   },
   "scripts": {
     "test": "istanbul cover jasmine-node --captureExceptions test",
-    "start": "node app.js",
+    "start": "./node_modules/.bin/forever --watchIgnore '*.ejs' --watchIgnore 'public/**/*.js' --watchIgnore '.git/**' -w app.js",
+    "stop": "./node_modules/.bin/forever stop 0",
     "pre-integration": "./sh/selenium/start.sh",
     "integration" : "./sh/integration.sh",
     "pos-integration": "./sh/selenium/stop.sh"
