@@ -10,7 +10,6 @@ module.exports = function (app) {
 
 			},
 			cadastro: function (req, res) {
-				console.log('req',req)
 				HomeController.util.preparaObjeto(req.body, function (valores) {
 	
 					var msg = 'Dados invalidos';

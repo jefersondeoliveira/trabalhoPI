@@ -36,6 +36,281 @@ module.exports = function() {
                 return false;
             }            
             
+            
+           var ini = (valores.um + valores.dois + valores.tres + valores.quatro);
+           
+           valores.um += 1;
+           valores.um += 1;
+           valores.um += 1;
+           valores.um += 1;
+           valores.um += 1;
+           valores.um += 1;
+           valores.um += 1;
+           valores.um += 1;
+           valores.um += 1;
+           valores.um += 1;
+           
+           valores.um += 1;
+           valores.um += 1;
+           valores.um += 1;
+           valores.um += 1;
+           valores.um += 1;
+           valores.um += 1;
+           valores.um += 1;
+           valores.um += 1;
+           valores.um += 1;
+           valores.um += 1;
+           
+           valores.um += 1;
+           valores.um += 1;
+           valores.um += 1;
+           valores.um += 1;
+           valores.um += 1;
+           valores.um += 1;
+           valores.um += 1;
+           valores.um += 1;
+           valores.um += 1;
+           valores.um += 1;
+           
+           valores.um -= 1;
+           valores.um -= 1;
+           valores.um -= 1;
+           valores.um -= 1;
+           valores.um -= 1;
+           valores.um -= 1;
+           valores.um -= 1;
+           valores.um -= 1;
+           valores.um -= 1;
+           valores.um -= 1;
+           
+           valores.um -= 1;
+           valores.um -= 1;
+           valores.um -= 1;
+           valores.um -= 1;
+           valores.um -= 1;
+           valores.um -= 1;
+           valores.um -= 1;
+           valores.um -= 1;
+           valores.um -= 1;
+           valores.um -= 1;
+           
+           valores.um -= 1;
+           valores.um -= 1;
+           valores.um -= 1;
+           valores.um -= 1;
+           valores.um -= 1;
+           valores.um -= 1;
+           valores.um -= 1;
+           valores.um -= 1;
+           valores.um -= 1;
+           valores.um -= 1;
+           
+           valores.dois += 1;
+           valores.dois += 1;
+           valores.dois += 1;
+           valores.dois += 1;
+           valores.dois += 1;
+           valores.dois += 1;
+           valores.dois += 1;
+           valores.dois += 1;
+           valores.dois += 1;
+           valores.dois += 1;
+           
+           valores.dois += 1;
+           valores.dois += 1;
+           valores.dois += 1;
+           valores.dois += 1;
+           valores.dois += 1;
+           valores.dois += 1;
+           valores.dois += 1;
+           valores.dois += 1;
+           valores.dois += 1;
+           valores.dois += 1;
+           
+           valores.dois += 1;
+           valores.dois += 1;
+           valores.dois += 1;
+           valores.dois += 1;
+           valores.dois += 1;
+           valores.dois += 1;
+           valores.dois += 1;
+           valores.dois += 1;
+           valores.dois += 1;
+           valores.dois += 1;
+           
+           valores.dois -= 1;
+           valores.dois -= 1;
+           valores.dois -= 1;
+           valores.dois -= 1;
+           valores.dois -= 1;
+           valores.dois -= 1;
+           valores.dois -= 1;
+           valores.dois -= 1;
+           valores.dois -= 1;
+           valores.dois -= 1;
+           
+           valores.dois -= 1;
+           valores.dois -= 1;
+           valores.dois -= 1;
+           valores.dois -= 1;
+           valores.dois -= 1;
+           valores.dois -= 1;
+           valores.dois -= 1;
+           valores.dois -= 1;
+           valores.dois -= 1;
+           valores.dois -= 1;
+           
+           valores.dois -= 1;
+           valores.dois -= 1;
+           valores.dois -= 1;
+           valores.dois -= 1;
+           valores.dois -= 1;
+           valores.dois -= 1;
+           valores.dois -= 1;
+           valores.dois -= 1;
+           valores.dois -= 1;
+           valores.dois -= 1;
+           
+           valores.tres += 1;
+           valores.tres += 1;
+           valores.tres += 1;
+           valores.tres += 1;
+           valores.tres += 1;
+           valores.tres += 1;
+           valores.tres += 1;
+           valores.tres += 1;
+           valores.tres += 1;
+           valores.tres += 1;
+           
+           valores.tres += 1;
+           valores.tres += 1;
+           valores.tres += 1;
+           valores.tres += 1;
+           valores.tres += 1;
+           valores.tres += 1;
+           valores.tres += 1;
+           valores.tres += 1;
+           valores.tres += 1;
+           valores.tres += 1;
+           
+           valores.tres += 1;
+           valores.tres += 1;
+           valores.tres += 1;
+           valores.tres += 1;
+           valores.tres += 1;
+           valores.tres += 1;
+           valores.tres += 1;
+           valores.tres += 1;
+           valores.tres += 1;
+           valores.tres += 1;
+           
+           valores.tres -= 1;
+           valores.tres -= 1;
+           valores.tres -= 1;
+           valores.tres -= 1;
+           valores.tres -= 1;
+           valores.tres -= 1;
+           valores.tres -= 1;
+           valores.tres -= 1;
+           valores.tres -= 1;
+           valores.tres -= 1;
+           
+           valores.tres -= 1;
+           valores.tres -= 1;
+           valores.tres -= 1;
+           valores.tres -= 1;
+           valores.tres -= 1;
+           valores.tres -= 1;
+           valores.tres -= 1;
+           valores.tres -= 1;
+           valores.tres -= 1;
+           valores.tres -= 1;
+           
+           valores.tres -= 1;
+           valores.tres -= 1;
+           valores.tres -= 1;
+           valores.tres -= 1;
+           valores.tres -= 1;
+           valores.tres -= 1;
+           valores.tres -= 1;
+           valores.tres -= 1;
+           valores.tres -= 1;
+           valores.tres -= 1;
+           
+           valores.quatro += 1;
+           valores.quatro += 1;
+           valores.quatro += 1;
+           valores.quatro += 1;
+           valores.quatro += 1;
+           valores.quatro += 1;
+           valores.quatro += 1;
+           valores.quatro += 1;
+           valores.quatro += 1;
+           valores.quatro += 1;
+           
+           valores.quatro += 1;
+           valores.quatro += 1;
+           valores.quatro += 1;
+           valores.quatro += 1;
+           valores.quatro += 1;
+           valores.quatro += 1;
+           valores.quatro += 1;
+           valores.quatro += 1;
+           valores.quatro += 1;
+           valores.quatro += 1;
+           
+           valores.quatro += 1;
+           valores.quatro += 1;
+           valores.quatro += 1;
+           valores.quatro += 1;
+           valores.quatro += 1;
+           valores.quatro += 1;
+           valores.quatro += 1;
+           valores.quatro += 1;
+           valores.quatro += 1;
+           valores.quatro += 1;
+           
+           valores.quatro -= 1;
+           valores.quatro -= 1;
+           valores.quatro -= 1;
+           valores.quatro -= 1;
+           valores.quatro -= 1;
+           valores.quatro -= 1;
+           valores.quatro -= 1;
+           valores.quatro -= 1;
+           valores.quatro -= 1;
+           valores.quatro -= 1;
+           
+           valores.quatro -= 1;
+           valores.quatro -= 1;
+           valores.quatro -= 1;
+           valores.quatro -= 1;
+           valores.quatro -= 1;
+           valores.quatro -= 1;
+           valores.quatro -= 1;
+           valores.quatro -= 1;
+           valores.quatro -= 1;
+           valores.quatro -= 1;
+           
+           valores.quatro -= 1;
+           valores.quatro -= 1;
+           valores.quatro -= 1;
+           valores.quatro -= 1;
+           valores.quatro -= 1;
+           valores.quatro -= 1;
+           valores.quatro -= 1;
+           valores.quatro -= 1;
+           valores.quatro -= 1;
+           valores.quatro -= 1;
+           
+           
+           var final = (valores.um + valores.dois + valores.tres + valores.quatro);
+            
+           if(ini === final){
+               console.log('Tudo ok');
+           }
+            
+            
             return true;
         }
 
